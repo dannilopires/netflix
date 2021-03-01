@@ -1,0 +1,45 @@
+/* reset css = anula os valores que os navegadores trazem por padrão para margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* declarando variáveis */
+
+:root {
+    --vermelho: #e50914;
+    --preto:#141414;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ 
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Ariel Black', Times; 
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header .navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:#AAA;
+}
+
+header .navbar a:hover{
+    color:#ffff;
+}
+
+
+
