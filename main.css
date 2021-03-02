@@ -45,8 +45,8 @@ header .navbar a:hover{
 /* filme principal */
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(./imgs/rectify.jpg);
-    height:800px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("./imgs/rectify.jpg");
+    height: 800px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -56,8 +56,32 @@ header .navbar a:hover{
 
 .filme-principal .descricao{
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .titulo{
     font-size: 32px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: rgba(0,0,0,.90);
+    font-weight: bold;
+}
+
+.botao i{
+    margin-right: 8px; 
 }
