@@ -27,7 +27,7 @@ header .container {
  
 header .logo {
     color: var(--vermelho);
-    font-family: 'Ariel Black', Times; 
+    font-family: 'Ariel', Times; 
     font-size: 40px;
     margin-left: 5px;
 }
@@ -46,12 +46,16 @@ header .navbar a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url("./imgs/rectify.jpg");
-    height: 800px;
+    height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 60%;
 }
 
 .filme-principal .descricao{
