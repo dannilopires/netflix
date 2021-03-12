@@ -29,7 +29,7 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Ariel Black', Times; 
     font-size: 40px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 header .navbar a{
@@ -47,6 +47,7 @@ header .navbar a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../imgs/rectify.jpg');
     height: 400px;
+    width: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -55,7 +56,7 @@ header .navbar a:hover{
 }
 
 .filme-principal .container{
-    width: 60%;
+    width: 100%;
 }
 
 .filme-principal .descricao{

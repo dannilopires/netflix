@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #e50914;
+    --preto:#141414;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.95), transparent 100%) fixed no-repeat,  url('../imgs/poster-collage.jpg');
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Ariel Black', Times; 
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
+
+.box-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.box-login .container {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    width: 450px;
+    border-radius: 4px;
+    padding-bottom: 50px;
+    padding-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.botao-entrar{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+
+    padding: 10px 10px;
+    margin-right: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+
+    
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.campos{
+    flex-direction: column;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.botao{
+    background-color: var(--vermelho);
+    font-family: 'Ariel Black', Times; 
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+    cursor: pointer;
+
+}
+
+.login-help{
+    font-size:small;
+    color:grey;
+}
+
+input {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+
+}
